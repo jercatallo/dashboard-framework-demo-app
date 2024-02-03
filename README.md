@@ -18,28 +18,28 @@ This repository houses a versatile Dashboard Framework designed to streamline th
 - src/routes - contains the utils for the **dashboard-framework-demo-app**.
   
 ## Files structure
-- *.jsx - contains a react component
-- *.js - contains javascript files
-- *.test.js - contains the test files
+- *.jsx - contains a react component.
+- *.js - contains javascript files.
+- *.test.js - contains the test files.
 - Applied **barrel export patter**n. As you will notice there are index files for each folder that exports the actual component. This helps to simplify imports and make the project structure more organized.
 
 ## Pre-requisites
-- Have node version in your machine
-- Recommended node version: **v18.18.0** before installing dependencies and running application
+- Have node installed in your machine
+- Recommended node version: **v18.18.0** before installing dependencies and running application. This is also to install the version of dependencies for this project.
   
 ## How to run
-1. Clone the repository
-2. Access repository directory using command line
-3. run "npm install"
-4. run "npm run start"
-5. The application is running on port 8080 and access it with localhost:8080
+1. Clone the repository.
+2. Access repository directory using command line.
+3. run "npm install".
+4. run "npm run start".
+5. The application is running on port 8080 and access it with localhost:8080.
 
 ## How to run unit tests
-1. Clone the repository
-2. Access repository directory using command line
-3. run "npm install"
-4. run "npm run coverage"
-5. The application is will now run the test and you can view the coverage report under the coverage folder generated jest
+1. Clone the repository.
+2. Access repository directory using command line.
+3. run "npm install".
+4. run "npm run coverage".
+5. The application is will now run the test and you can view the coverage report under the coverage folder generated jest.
 
 ### Unit Tests Results
 ![image](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/4bdcc1b9-533c-458d-bb6c-0db3fc522509)
