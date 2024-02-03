@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body::before {
+  content: "";
+  background: url('./assets/pokemon-bg.jpg') center/cover no-repeat fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
