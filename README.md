@@ -11,10 +11,11 @@ Application URL: https://dashboard-framework-demo-app.onrender.com
    - this contains separate components, hooks and files that is sole purpose is to standalone to the **dashboard framework**.
    - I've been planning to create a another repository for the **dashboard framework** which will be installed and imported by the **dashboard-framework-demo-app**, but just for simplicity and quickly finished the app added the dashboard framework in this repository.
    - This accepts a configuration that will be automatically rendered by the **dashboard framework** based on the data in the configuration.
+
+- src/constants/DashboardConfiguration - contains the configuration being used by the **dashboard-framework-demo-app**, and which is being passed to the **dashboard framework**.
+   - update this configuration file to change the displayed data in the dashboard. 
 - src/assets - contains static files for **dashboard-framework-demo-app**.
 - src/components - contains reusable components for the **dashboard-framework-demo-app**.
-- src/constants - constants for **the dashboard-framework-demo-app**.
-   - src/constants/DashboardConfiguration - contains the configuration being used by the **dashboard-framework-demo-app**, and which is being passed to the **dashboard framework**.
 - src/pages - contains the pages of the **dashboard-framework-demo-app**.
 - src/routes - contains the routes of the **dashboard-framework-demo-app**.
 - src/routes - contains the utils for the **dashboard-framework-demo-app**.
@@ -23,7 +24,7 @@ Application URL: https://dashboard-framework-demo-app.onrender.com
 - *.jsx - contains a react component.
 - *.js - contains javascript files.
 - *.test.js - contains the test files.
-- Applied **barrel export patter**n. As you will notice there are index files for each folder that exports the actual component. This helps to simplify imports and make the project structure more organized.
+- Applied **barrel export pattern**. As you will notice there are index files for each folder that exports the actual component. This helps to simplify imports and make the project structure more organized.
 
 ## Pre-requisites
 - Have node installed in your machine
