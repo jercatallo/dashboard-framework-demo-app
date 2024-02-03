@@ -1,6 +1,8 @@
 # Dashboard Framework Demo App
 This repository houses a versatile Dashboard Framework designed to streamline the development of client-specific dashboards. The framework provides a set of reusable components, allowing easy configuration of dashboards with varying layouts, column numbers, and widget arrangements.
 
+Application URL: https://dashboard-framework-demo-app.onrender.com
+
 ## Techstack
 ##  ![javascript-color](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/5baa6eb0-ef53-49a2-9445-328f78567010) JavaScript, ![react-color](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/298662a4-b2b8-45c2-81c1-b8b199bd4e77) React, ![tailwindcss-color](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/4df9e04f-2c66-4bc9-89f8-5c466c3a9ea0) Tailwind CSS, ![jest-color](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/4d0a5aa0-e98a-4632-b7b7-36f9e035bbc9) Jest, ![webpack-color](https://github.com/jercatallo/dashboard-framework-demo-app/assets/49897728/5a8db7ff-5cc7-4def-84d0-6475e4f49db0) Webpack
 
