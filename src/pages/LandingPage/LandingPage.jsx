@@ -44,7 +44,7 @@ export const LandingPage = () => {
 
             const WidgetGetter = {
               list: getWidgetApiResponse?.results,
-              number: getWidgetApiResponse?.pokemon_species_details?.length,
+              number: getWidgetApiResponse?.pokemon_species_details?.length || getWidgetApiResponse?.count,
             };
             const ClientWidgetIcon = {
               pokemon: {

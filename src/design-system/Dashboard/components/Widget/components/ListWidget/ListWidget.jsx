@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 export const ListWidget = ({ widget }) => {
     const data = widget.data;
+    const colorVariants = ['bg-blue-100','bg-red-100','bg-green-100']
 
+    const bgColor = useMemo(()=> {
+      return colorVariants[Math.floor(Math.random() * colorVariants.length)];
+    },[])
+    
     return (
-        <div data-testid={`list-widget-${ widget.title }`} className='border-solid bg-blue-100  border-gray-400 rounded-2xl border-2 p-5'>
+        <div data-testid={`list-widget-${ widget.title }`} className={`border-solid ${bgColor} border-gray-400 rounded-2xl border-2 p-5`}>
             <h3 data-testid={`list-widget-title-${ widget.title }`} className='text-2xl font-heading text-blue-500 flex items-center gap-2 font-medium'>
                 <img src={widget.icon} style={{ width: '25px', height: '25px' }} alt={widget.title}></img> {widget.title}
             </h3>
